@@ -3,6 +3,7 @@ import { CreativepartnerComponent } from './component/creativepartner/creativepa
 import { Video } from './component/video/video';
 import { MainComponent } from './component/component';
 import { CreativeVision } from './component/creative-vision/creative-vision';
+import { ToolsExpertiseComponent } from './component/tools-expertise/tools-expertise';
 
 export const routes: Routes = [
   {
@@ -23,5 +24,10 @@ export const routes: Routes = [
   {
     path: 'vision',
     component: CreativeVision,
+  },
+
+  {
+    path: 'tools-expertise',
+    component: ToolsExpertiseComponent,
   },
 ];

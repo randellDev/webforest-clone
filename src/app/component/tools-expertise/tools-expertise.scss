@@ -1,0 +1,127 @@
+.tools-expertise {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  background-color: #0c0116;
+  padding: 130px 200px;
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 90px;
+
+    .left-col {
+      .img {
+        width: 660px;
+        height: 700px;
+        transition: transform 0.1s ease;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+        }
+      }
+    }
+
+    .right-col {
+      display: flex;
+      flex-direction: column;
+
+      .title {
+        font-size: 42px;
+        color: white;
+        margin-bottom: 30px;
+      }
+
+      .contents-row {
+        display: flex;
+        flex-direction: row;
+
+        gap: 20px;
+
+        .contents-col {
+          display: flex;
+          flex-direction: column;
+
+          .list {
+            list-style: none;
+
+            .list-text {
+              font-size: 18px;
+              color: #6d389e;
+              font-family: 'Share Tech Mono', monospace;
+            }
+          }
+        }
+      }
+      .logo-row {
+        display: flex;
+        flex-direction: row;
+        padding-top: 30px;
+        justify-content: space-between;
+
+        .bg-white {
+          img {
+            width: 55px;
+            height: auto;
+            border-radius: 15px;
+            background-color: white;
+            padding: 5px 5px;
+          }
+        }
+
+        .bg-purple {
+          img {
+            width: 65px;
+            height: 58px;
+            border-radius: 15px;
+            background-color: rgb(1, 5, 65);
+            padding: 5px 5px;
+          }
+        }
+
+        .bg-red {
+          img {
+            width: 55px;
+            height: auto;
+            border-radius: 15px;
+            background-color: rgb(241, 31, 31);
+            padding: 5px 5px;
+          }
+        }
+
+        .bg-white-v2 {
+          img {
+            width: 53px;
+            height: auto;
+            border-radius: 15px;
+            background-color: white;
+            padding: 5px 5px;
+          }
+        }
+
+        .bg-blue {
+          img {
+            width: 59px;
+            height: auto;
+            border-radius: 15px;
+            background-color: rgb(0, 140, 255);
+            padding: 5px 5px;
+          }
+        }
+
+        .bg-green {
+          img {
+            width: 55px;
+            height: auto;
+            border-radius: 15px;
+            background-color: rgb(137, 196, 1);
+            padding: 5px 5px;
+          }
+        }
+      }
+    }
+  }
+}
