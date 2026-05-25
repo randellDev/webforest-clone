@@ -6,6 +6,7 @@ import { ToolsExpertiseComponent } from './tools-expertise/tools-expertise';
 import { Department } from './department/department';
 import { VideoGrid } from './video-grid/video-grid';
 import { Consultation } from './consultation/consultation';
+import { Footer } from './footer/footer';
 
 @Component({
   selector: 'app-component',
@@ -18,6 +19,7 @@ import { Consultation } from './consultation/consultation';
     Department,
     VideoGrid,
     Consultation,
+    Footer,
   ],
   templateUrl: './component.html',
   styleUrls: ['./component.scss'],

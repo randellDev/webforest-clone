@@ -7,6 +7,7 @@ import { ToolsExpertiseComponent } from './component/tools-expertise/tools-exper
 import { Department } from './component/department/department';
 import { VideoGrid } from './component/video-grid/video-grid';
 import { Consultation } from './component/consultation/consultation';
+import { Footer } from './component/footer/footer';
 
 export const routes: Routes = [
   {
@@ -47,5 +48,10 @@ export const routes: Routes = [
   {
     path: 'consultation',
     component: Consultation,
+  },
+
+  {
+    path: 'footer',
+    component: Footer,
   },
 ];
