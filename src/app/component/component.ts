@@ -3,11 +3,12 @@ import { CreativepartnerComponent } from './creativepartner/creativepartner';
 import { Video } from './video/video';
 import { CreativeVision } from './creative-vision/creative-vision';
 import { ToolsExpertiseComponent } from './tools-expertise/tools-expertise';
+import { Department } from './department/department';
 
 @Component({
   selector: 'app-component',
   standalone: true,
-  imports: [CreativepartnerComponent, Video, CreativeVision, ToolsExpertiseComponent],
+  imports: [CreativepartnerComponent, Video, CreativeVision, ToolsExpertiseComponent, Department],
   templateUrl: './component.html',
   styleUrls: ['./component.scss'],
 })
