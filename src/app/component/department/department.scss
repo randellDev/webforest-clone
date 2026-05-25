@@ -1,0 +1,256 @@
+.department {
+  min-height: 100vh;
+  background-color: #0c0116;
+  padding: 130px 230px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .row {
+    display: flex;
+    flex-direction: row;
+
+    .left-col {
+      display: flex;
+      flex-direction: column;
+
+      .left-container {
+        background:
+          linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)),
+          url('/assets/images/Fast-bg.png');
+
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        width: 321px;
+        height: 314px;
+        padding: 24px 30px;
+
+        border: 1px solid rgba(255, 255, 255, 0.4);
+        border-radius: 18px;
+        box-shadow:
+          0 0 10px rgba(255, 255, 255, 0.1),
+          0 0 20px rgba(255, 255, 255, 0.1);
+
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        margin-bottom: 60px;
+
+        img {
+          width: 110px;
+          height: 130px;
+        }
+
+        .left-container-title {
+          color: white;
+          text-transform: uppercase;
+          font-size: 18px;
+          font-weight: 700;
+          font-family: 'Montserrat', sans-serif;
+        }
+
+        .left-container-p {
+          color: white;
+          font-size: 14px;
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 300;
+        }
+      }
+      .left-container-2 {
+        background:
+          linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)),
+          url('/assets/images/Flexible-bg.png');
+
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        width: 321px;
+        height: 314px;
+        padding: 24px 30px;
+
+        border: 1px solid rgba(255, 255, 255, 0.4);
+        border-radius: 18px;
+        box-shadow:
+          0 0 10px rgba(255, 255, 255, 0.1),
+          0 0 20px rgba(255, 255, 255, 0.1);
+
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        img {
+          width: 110px;
+          height: 130px;
+        }
+
+        .left-container-title {
+          color: white;
+          text-transform: uppercase;
+          font-size: 18px;
+          font-weight: 700;
+          font-family: 'Montserrat', sans-serif;
+        }
+
+        .left-container-p {
+          color: white;
+          font-size: 14px;
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 300;
+        }
+      }
+    }
+
+    .mid-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 220px 90px;
+
+      .text-start {
+        align-items: self-start;
+        display: flex;
+        flex-direction: column;
+
+        .first-statement {
+          text-align: start;
+          font-family: 'Montserrat', sans-serif;
+          font-size: 26px;
+          color: white;
+          font-weight: 500;
+          text-transform: uppercase;
+        }
+
+        .second-statement {
+          text-align: start;
+          font-family: 'Montserrat', sans-serif;
+          font-size: 64px;
+          color: white;
+          font-weight: 700;
+        }
+
+        .third-statement {
+          text-align: start;
+          font-family: 'Montserrat', sans-serif;
+          font-size: 64px;
+          font-weight: 700;
+          white-space: nowrap;
+
+          background: linear-gradient(190deg, #9952f0, #b776fd);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+      }
+
+      .fourth-statement {
+        text-align: end;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 26px;
+        color: white;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-left: 320px;
+      }
+    }
+
+    .right-col {
+      display: flex;
+      flex-direction: column;
+
+      .right-container {
+        background:
+          linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)),
+          url('/assets/images/Fast-bg.png');
+
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        width: 321px;
+        height: 314px;
+        padding: 24px 30px;
+
+        border: 1px solid rgba(255, 255, 255, 0.4);
+        border-radius: 18px;
+        box-shadow:
+          0 0 10px rgba(255, 255, 255, 0.1),
+          0 0 20px rgba(255, 255, 255, 0.1);
+
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        margin-bottom: 60px;
+
+        img {
+          width: 110px;
+          height: 130px;
+        }
+
+        .right-container-title {
+          color: white;
+          text-transform: uppercase;
+          font-size: 18px;
+          font-weight: 700;
+          font-family: 'Montserrat', sans-serif;
+        }
+
+        .right-container-p {
+          color: white;
+          font-size: 14px;
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 300;
+        }
+      }
+
+      .right-container-2 {
+        background:
+          linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)),
+          url('/assets/images/Fast-bg.png');
+
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        width: 321px;
+        height: 314px;
+        padding: 24px 30px;
+
+        border: 1px solid rgba(255, 255, 255, 0.4);
+        border-radius: 18px;
+        box-shadow:
+          0 0 10px rgba(255, 255, 255, 0.1),
+          0 0 20px rgba(255, 255, 255, 0.1);
+
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        img {
+          width: 110px;
+          height: 130px;
+        }
+
+        .right-container-title {
+          color: white;
+          text-transform: uppercase;
+          font-size: 18px;
+          font-weight: 700;
+          font-family: 'Montserrat', sans-serif;
+        }
+
+        .right-container-p {
+          color: white;
+          font-size: 14px;
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+}

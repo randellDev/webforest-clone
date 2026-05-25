@@ -4,6 +4,7 @@ import { Video } from './component/video/video';
 import { MainComponent } from './component/component';
 import { CreativeVision } from './component/creative-vision/creative-vision';
 import { ToolsExpertiseComponent } from './component/tools-expertise/tools-expertise';
+import { Department } from './component/department/department';
 
 export const routes: Routes = [
   {
@@ -29,5 +30,10 @@ export const routes: Routes = [
   {
     path: 'tools-expertise',
     component: ToolsExpertiseComponent,
+  },
+
+  {
+    path: 'department',
+    component: Department,
   },
 ];
