@@ -50,8 +50,15 @@
 
             .list-text {
               font-size: 18px;
-              color: #6d389e;
               font-family: 'Share Tech Mono', monospace;
+
+              background: linear-gradient(90deg, #54158f, #ad66f3, #6d389e);
+
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+
+              background-clip: text;
+              color: transparent;
             }
           }
         }
