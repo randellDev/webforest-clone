@@ -6,6 +6,7 @@ import { CreativeVision } from './component/creative-vision/creative-vision';
 import { ToolsExpertiseComponent } from './component/tools-expertise/tools-expertise';
 import { Department } from './component/department/department';
 import { VideoGrid } from './component/video-grid/video-grid';
+import { Consultation } from './component/consultation/consultation';
 
 export const routes: Routes = [
   {
@@ -41,5 +42,10 @@ export const routes: Routes = [
   {
     path: 'video-grid',
     component: VideoGrid,
+  },
+
+  {
+    path: 'consultation',
+    component: Consultation,
   },
 ];
