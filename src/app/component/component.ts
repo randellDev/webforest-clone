@@ -5,6 +5,7 @@ import { CreativeVision } from './creative-vision/creative-vision';
 import { ToolsExpertiseComponent } from './tools-expertise/tools-expertise';
 import { Department } from './department/department';
 import { VideoGrid } from './video-grid/video-grid';
+import { Consultation } from './consultation/consultation';
 
 @Component({
   selector: 'app-component',
@@ -16,6 +17,7 @@ import { VideoGrid } from './video-grid/video-grid';
     ToolsExpertiseComponent,
     Department,
     VideoGrid,
+    Consultation,
   ],
   templateUrl: './component.html',
   styleUrls: ['./component.scss'],
