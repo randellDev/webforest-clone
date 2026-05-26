@@ -3,7 +3,7 @@
   position: relative;
   overflow: hidden;
   color: white;
-  padding: 135px 230px;
+  padding: 105px 230px;
 
   .background-video {
     position: absolute;
@@ -27,10 +27,24 @@
       justify-content: space-between;
       // padding-top: 150px;
 
-      .first-row-title {
-        font-size: 36px;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 700;
+      .title-row {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: center;
+        gap: 1px;
+
+        .first-row-title {
+          font-size: 36px;
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 700;
+        }
+
+        .dot-green {
+          font-size: 86px;
+          color: #70fcb8;
+          margin-left: -4px;
+        }
       }
 
       .social-actions {
@@ -51,6 +65,92 @@
           border-radius: 5px;
 
           font-size: 18px;
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 700;
+        }
+      }
+    }
+
+    .left-col {
+      display: flex;
+      flex-direction: column;
+      margin-top: 15px;
+
+      .left-col-text {
+        font-size: 74px;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+      }
+
+      .text-row {
+        display: flex;
+        flex-direction: row;
+        gap: 14px;
+
+        .left-col-text {
+          font-size: 74px;
+          color: white;
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 700;
+        }
+
+        .colored-text {
+          font-size: 74px;
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 700;
+
+          background: linear-gradient(100deg, #42ffd0, #4bd5ff, #0329ff);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+      }
+
+      .colored-text-2 {
+        font-size: 74px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+
+        background: linear-gradient(90deg, #0466fa, #7700ff, #a454ff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+
+    .bottom-content {
+      display: flex;
+      flex-direction: column;
+      margin-top: 24px;
+
+      .bottom-content-text {
+        font-size: 22px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+      }
+
+      .project-container {
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        gap: 25px;
+        align-items: center;
+        width: 300px;
+
+        border: solid 1px;
+        border-radius: 130px;
+
+        .svg-container {
+          border-radius: 50%;
+          background-color: white;
+          padding: 10px 10px;
+          height: 40px;
+          width: 40px;
+
+          color: black;
+        }
+
+        .project-container-text {
+          font-size: 14px;
           font-family: 'Montserrat', sans-serif;
           font-weight: 700;
         }
