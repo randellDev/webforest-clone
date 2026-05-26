@@ -1,0 +1,276 @@
+.footer {
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  color: white;
+  padding: 105px 230px;
+
+  .background-video {
+    position: absolute;
+    inset: 0;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    z-index: -1;
+  }
+
+  .footer-content {
+    position: relative;
+    z-index: 1;
+
+    .first-row {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      // padding-top: 150px;
+
+      .title-row {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: center;
+        gap: 1px;
+
+        .first-row-title {
+          font-size: 36px;
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 700;
+        }
+
+        .dot-green {
+          font-size: 86px;
+          color: #70fcb8;
+          margin-left: -4px;
+        }
+      }
+
+      .social-actions {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+
+        .social-actions-content {
+          height: 30px;
+          width: auto;
+          background-color: #1877f2;
+          padding: 5px 15px;
+          display: flex;
+          align-items: center;
+
+          border-radius: 5px;
+
+          font-size: 18px;
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 700;
+        }
+      }
+    }
+
+    .left-col {
+      display: flex;
+      flex-direction: column;
+      margin-top: 15px;
+
+      .left-col-text {
+        font-size: 74px;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+      }
+
+      .text-row {
+        display: flex;
+        flex-direction: row;
+        gap: 14px;
+
+        .left-col-text {
+          font-size: 74px;
+          color: white;
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 700;
+        }
+
+        .colored-text {
+          font-size: 74px;
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 700;
+
+          background: linear-gradient(100deg, #42ffd0, #4bd5ff, #0329ff);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+      }
+
+      .colored-text-2 {
+        font-size: 74px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+
+        background: linear-gradient(90deg, #0466fa, #7700ff, #a454ff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+
+    .bottom-content {
+      display: flex;
+      flex-direction: column;
+      margin-top: 24px;
+
+      .bottom-content-text {
+        font-size: 22px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+      }
+
+      .project-container {
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        gap: 25px;
+        align-items: center;
+        width: 300px;
+
+        border: solid 1px;
+        border-radius: 130px;
+
+        .svg-container {
+          border-radius: 50%;
+          background-color: white;
+          padding: 10px 10px;
+          height: 40px;
+          width: 40px;
+
+          color: black;
+        }
+
+        .project-container-text {
+          font-size: 14px;
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 700;
+        }
+      }
+    }
+
+    .address-contact {
+      display: flex;
+      flex-direction: row;
+      margin-top: 20px;
+      justify-content: space-between;
+      align-items: center;
+
+      .address-content {
+        display: flex;
+        flex-direction: column;
+
+        .title-row {
+          display: flex;
+          flex-direction: row;
+          color: white;
+          align-items: baseline;
+          margin-bottom: 10px;
+
+          .address-contact-title {
+            font-size: 18px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 900;
+            text-transform: uppercase;
+          }
+
+          .address-dot {
+            font-size: 50px;
+            color: rgb(5, 255, 5);
+          }
+        }
+
+        .address-content-row {
+          display: flex;
+          flex-direction: row;
+          gap: 150px;
+
+          .address-location {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 10px;
+
+            .svg {
+              width: 40px;
+              height: auto;
+              color: rgb(248, 46, 46);
+            }
+            .address-location-text {
+              font-size: 14px;
+              font-family: 'Montserrat', sans-serif;
+              font-weight: 600;
+            }
+          }
+        }
+      }
+
+      .contact-content {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+
+        .title-row {
+          display: flex;
+          flex-direction: row;
+          color: white;
+          align-items: baseline;
+          margin-bottom: 10px;
+
+          .address-contact-title {
+            font-size: 18px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 900;
+            text-transform: uppercase;
+          }
+
+          .address-dot {
+            font-size: 50px;
+            color: rgb(5, 255, 5);
+          }
+        }
+
+        .contact-content-row {
+          display: flex;
+          gap: 150px;
+          flex-direction: row;
+
+          .content-text {
+            font-size: 15px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+          }
+
+          .date-clock {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            .date {
+              font-size: 18px;
+              font-family: 'Montserrat', sans-serif;
+              font-weight: 900;
+              text-transform: uppercase;
+            }
+
+            .clock {
+              font-size: 18px;
+              font-family: 'Montserrat', sans-serif;
+              font-weight: 900;
+
+              color: rgb(141, 243, 141);
+            }
+          }
+        }
+      }
+    }
+  }
+}
