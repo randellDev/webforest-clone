@@ -156,5 +156,121 @@
         }
       }
     }
+
+    .address-contact {
+      display: flex;
+      flex-direction: row;
+      margin-top: 20px;
+      justify-content: space-between;
+      align-items: center;
+
+      .address-content {
+        display: flex;
+        flex-direction: column;
+
+        .title-row {
+          display: flex;
+          flex-direction: row;
+          color: white;
+          align-items: baseline;
+          margin-bottom: 10px;
+
+          .address-contact-title {
+            font-size: 18px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 900;
+            text-transform: uppercase;
+          }
+
+          .address-dot {
+            font-size: 50px;
+            color: rgb(5, 255, 5);
+          }
+        }
+
+        .address-content-row {
+          display: flex;
+          flex-direction: row;
+          gap: 150px;
+
+          .address-location {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 10px;
+
+            .svg {
+              width: 40px;
+              height: auto;
+              color: rgb(248, 46, 46);
+            }
+            .address-location-text {
+              font-size: 14px;
+              font-family: 'Montserrat', sans-serif;
+              font-weight: 600;
+            }
+          }
+        }
+      }
+
+      .contact-content {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+
+        .title-row {
+          display: flex;
+          flex-direction: row;
+          color: white;
+          align-items: baseline;
+          margin-bottom: 10px;
+
+          .address-contact-title {
+            font-size: 18px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 900;
+            text-transform: uppercase;
+          }
+
+          .address-dot {
+            font-size: 50px;
+            color: rgb(5, 255, 5);
+          }
+        }
+
+        .contact-content-row {
+          display: flex;
+          gap: 150px;
+          flex-direction: row;
+
+          .content-text {
+            font-size: 15px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+          }
+
+          .date-clock {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            .date {
+              font-size: 18px;
+              font-family: 'Montserrat', sans-serif;
+              font-weight: 900;
+              text-transform: uppercase;
+            }
+
+            .clock {
+              font-size: 18px;
+              font-family: 'Montserrat', sans-serif;
+              font-weight: 900;
+
+              color: rgb(141, 243, 141);
+            }
+          }
+        }
+      }
+    }
   }
 }
